@@ -199,6 +199,11 @@ html
   order: -1;
 }
 
+.cursos h2
+{
+  line-height: 1.2;
+}
+
 
 
 @media (min-width:768px) 
@@ -220,3 +225,36 @@ html
     order: +1;
   }
 }
+
+/* Cursos Sidebar */
+
+.lista-cursos
+{
+  padding: 0;
+  list-style: none;
+}
+
+.curso
+{
+  /* list-style: none; */
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e1e1e1;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.curso:last-of-type
+{
+  border: none;
+}
+
+.curso span
+{
+  font-weight: 700;
+}
+
+.curso h3
+{
+  font-size: 2.8rem;
+}
+
+
