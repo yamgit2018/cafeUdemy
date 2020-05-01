@@ -65,6 +65,39 @@ html
     margin: 0;
   }
 
+  /* Botones  */
+
+  .boton
+  {
+    display: block;
+    padding: 1rem 3rem;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 2rem 0;
+    text-transform: uppercase;
+  }
+
+  @media (min-width:768px) 
+  {
+    .boton
+    {
+      display: inline-block;
+    }
+  }
+
+  .boton-primario
+  {
+    background-color: #000000;
+  }
+
+  .boton-secundario
+  {
+    background-color: #784d3d;
+  }
 /* Header */
 
 /* @media (min-width:768px) 
