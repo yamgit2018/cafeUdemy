@@ -312,7 +312,23 @@ html
   font-weight: 700;
 }
 
+/* Nosotros */
 
+.nosotros
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagen-nosotros
+{
+  flex: 0 0  calc(66.6% - 2rem);
+}
+
+.contenido-nosotros
+{
+  flex: 0 0 calc(33.3% - 2rem);
+}
 
 
 
