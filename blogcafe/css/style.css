@@ -264,6 +264,8 @@ html
 .curso
 {
   /* list-style: none; */
+  /* padding-top: 3rem; */
+  margin-top: 3rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid #e1e1e1;
   font-family: 'PT Sans', sans-serif;
@@ -341,6 +343,16 @@ html
   .column-6
   {
     flex: 0 0 calc(50% - 2rem);
+  }
+
+  .column-4
+  {
+    flex: 0 0 calc(33.3% - 1rem);
+  }
+
+  .column-8
+  {
+    flex: 0 0 calc(66.6% - 1rem);
   }
 }
 
